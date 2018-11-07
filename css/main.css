@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 *, *::before, *::after {
@@ -28,11 +28,12 @@ body {
   position: absolute;
   max-width: 45em;
   width: 100%;
-  top: 7rem;
+  top: 1rem;
   left: 50%;
   transform: translateX(-50%);
   justify-content: center;
   font-size: 1.5rem;
+  align-items: center;
 }
 
 .logo {
